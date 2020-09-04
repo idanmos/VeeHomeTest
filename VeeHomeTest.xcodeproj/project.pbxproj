@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		8AF0C3F52501762D00EC14C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0C3F42501762D00EC14C3 /* AppDelegate.swift */; };
 		8AF0C3F72501762D00EC14C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0C3F62501762D00EC14C3 /* SceneDelegate.swift */; };
-		8AF0C3F92501762D00EC14C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0C3F82501762D00EC14C3 /* ViewController.swift */; };
 		8AF0C3FC2501762D00EC14C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF0C3FA2501762D00EC14C3 /* Main.storyboard */; };
 		8AF0C3FF2501762D00EC14C3 /* VeeHomeTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0C3FD2501762D00EC14C3 /* VeeHomeTest.xcdatamodeld */; };
 		8AF0C4012501762F00EC14C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AF0C4002501762F00EC14C3 /* Assets.xcassets */; };
 		8AF0C4042501762F00EC14C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF0C4022501762F00EC14C3 /* LaunchScreen.storyboard */; };
+		8AF0C40C2501781100EC14C3 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0C40B2501781100EC14C3 /* CoreDataManager.swift */; };
+		8AF0C4172501791300EC14C3 /* NotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0C4152501791300EC14C3 /* NotesTableViewCell.swift */; };
+		8AF0C4182501791300EC14C3 /* NotesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AF0C4162501791300EC14C3 /* NotesTableViewCell.xib */; };
+		8AF0C43F25017CAC00EC14C3 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0C43E25017CAC00EC14C3 /* HomeTableViewController.swift */; };
+		8AF0C4412501849000EC14C3 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0C4402501849000EC14C3 /* NoteViewController.swift */; };
+		8AF0C44325019D8400EC14C3 /* ArchivedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0C44225019D8400EC14C3 /* ArchivedTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8AF0C3F12501762D00EC14C3 /* VeeHomeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeeHomeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF0C3F42501762D00EC14C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AF0C3F62501762D00EC14C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8AF0C3F82501762D00EC14C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8AF0C3FB2501762D00EC14C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AF0C3FE2501762D00EC14C3 /* VeeHomeTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VeeHomeTest.xcdatamodel; sourceTree = "<group>"; };
 		8AF0C4002501762F00EC14C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AF0C4032501762F00EC14C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AF0C4052501762F00EC14C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AF0C40B2501781100EC14C3 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		8AF0C4152501791300EC14C3 /* NotesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewCell.swift; sourceTree = "<group>"; };
+		8AF0C4162501791300EC14C3 /* NotesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotesTableViewCell.xib; sourceTree = "<group>"; };
+		8AF0C43E25017CAC00EC14C3 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		8AF0C4402501849000EC14C3 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		8AF0C44225019D8400EC14C3 /* ArchivedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivedTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +49,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A01E6172501BBA6004BA8EF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8AF0C3F42501762D00EC14C3 /* AppDelegate.swift */,
+				8AF0C3F62501762D00EC14C3 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8A01E6182501BBBA004BA8EF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8AF0C3FA2501762D00EC14C3 /* Main.storyboard */,
+				8A01E6192501BBC1004BA8EF /* Screens */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8A01E6192501BBC1004BA8EF /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8A01E61D2501BBEF004BA8EF /* Common */,
+				8A01E61A2501BBCA004BA8EF /* Home */,
+				8A01E61B2501BBD1004BA8EF /* Archived notes */,
+				8A01E61C2501BBDB004BA8EF /* Note editor */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8A01E61A2501BBCA004BA8EF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8AF0C43E25017CAC00EC14C3 /* HomeTableViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8A01E61B2501BBD1004BA8EF /* Archived notes */ = {
+			isa = PBXGroup;
+			children = (
+				8AF0C44225019D8400EC14C3 /* ArchivedTableViewController.swift */,
+			);
+			path = "Archived notes";
+			sourceTree = "<group>";
+		};
+		8A01E61C2501BBDB004BA8EF /* Note editor */ = {
+			isa = PBXGroup;
+			children = (
+				8AF0C4402501849000EC14C3 /* NoteViewController.swift */,
+			);
+			path = "Note editor";
+			sourceTree = "<group>";
+		};
+		8A01E61D2501BBEF004BA8EF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8AF0C4152501791300EC14C3 /* NotesTableViewCell.swift */,
+				8AF0C4162501791300EC14C3 /* NotesTableViewCell.xib */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8A01E61E2501BBFB004BA8EF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8A01E61F2501BC00004BA8EF /* Managers */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		8A01E61F2501BC00004BA8EF /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8AF0C40B2501781100EC14C3 /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8A01E6202501BC11004BA8EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8AF0C4002501762F00EC14C3 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		8AF0C3E82501762D00EC14C3 = {
 			isa = PBXGroup;
 			children = (
@@ -58,11 +154,10 @@
 		8AF0C3F32501762D00EC14C3 /* VeeHomeTest */ = {
 			isa = PBXGroup;
 			children = (
-				8AF0C3F42501762D00EC14C3 /* AppDelegate.swift */,
-				8AF0C3F62501762D00EC14C3 /* SceneDelegate.swift */,
-				8AF0C3F82501762D00EC14C3 /* ViewController.swift */,
-				8AF0C3FA2501762D00EC14C3 /* Main.storyboard */,
-				8AF0C4002501762F00EC14C3 /* Assets.xcassets */,
+				8A01E6172501BBA6004BA8EF /* Application */,
+				8A01E61E2501BBFB004BA8EF /* Data */,
+				8A01E6182501BBBA004BA8EF /* UI */,
+				8A01E6202501BC11004BA8EF /* Resources */,
 				8AF0C4022501762F00EC14C3 /* LaunchScreen.storyboard */,
 				8AF0C4052501762F00EC14C3 /* Info.plist */,
 				8AF0C3FD2501762D00EC14C3 /* VeeHomeTest.xcdatamodeld */,
@@ -131,6 +226,7 @@
 				8AF0C4042501762F00EC14C3 /* LaunchScreen.storyboard in Resources */,
 				8AF0C4012501762F00EC14C3 /* Assets.xcassets in Resources */,
 				8AF0C3FC2501762D00EC14C3 /* Main.storyboard in Resources */,
+				8AF0C4182501791300EC14C3 /* NotesTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +237,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AF0C3F92501762D00EC14C3 /* ViewController.swift in Sources */,
+				8AF0C4412501849000EC14C3 /* NoteViewController.swift in Sources */,
 				8AF0C3FF2501762D00EC14C3 /* VeeHomeTest.xcdatamodeld in Sources */,
 				8AF0C3F52501762D00EC14C3 /* AppDelegate.swift in Sources */,
+				8AF0C40C2501781100EC14C3 /* CoreDataManager.swift in Sources */,
+				8AF0C43F25017CAC00EC14C3 /* HomeTableViewController.swift in Sources */,
 				8AF0C3F72501762D00EC14C3 /* SceneDelegate.swift in Sources */,
+				8AF0C4172501791300EC14C3 /* NotesTableViewCell.swift in Sources */,
+				8AF0C44325019D8400EC14C3 /* ArchivedTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -274,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -291,6 +391,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N3N3LX399B;
 				INFOPLIST_FILE = VeeHomeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +399,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.idanmoshe.VeeHomeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,6 +410,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N3N3LX399B;
 				INFOPLIST_FILE = VeeHomeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,7 +418,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.idanmoshe.VeeHomeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
